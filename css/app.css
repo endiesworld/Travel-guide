@@ -20,7 +20,9 @@ body {
     padding: 1em;
     width: 80%;
 }
-
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
 .destination-container {
     display: flex;
     flex-flow: wrap;
@@ -43,6 +45,9 @@ body {
 h2 {
     margin: 0;
     transform: rotate(-45deg);
+    .destination:hover h2 {
+    transform: rotate(0deg);
+}
     text-shadow: 0 0 5px #01579b;
 }
 
